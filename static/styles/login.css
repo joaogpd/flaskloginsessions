@@ -1,0 +1,115 @@
+body{
+    background-color: #22c2e6;
+}
+h1{
+    color: #22c2e6;
+    font-family: 'Roboto', sans-serif;
+    font-size: 60px;
+    text-align: center;
+    -webkit-text-fill-color: white;
+    -webkit-text-stroke: 3px;
+    
+    
+}
+body form{
+    text-align: center;
+}
+#username{
+    border: 2px solid #22c2e6;
+    border-radius: 4px;
+}
+#matricula{
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    padding-right: 100px;
+}
+#senha{
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    padding-right: 123px;
+}
+#nome{
+    display: none;
+}
+#password{
+    border: 2px solid #22c2e6;
+    border-radius: 4px;
+}
+#login{
+    color: white;
+    border-color: white;
+    background-color: #22c2e6;
+    padding: 20px;
+    border-radius: 20px;
+    text-align: center;
+}
+#login:hover{
+    background-color: white;
+    color: #22c2e6;
+}
+.container {
+    height: 80px;
+    position: relative;
+  }
+  
+.center {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+
+.caixa{
+    display: flex;
+    justify-content: center;
+    
+}
+.centercaixa {
+    background-color: white;
+    width: 200px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    border-radius: 20px;
+}
+
+#loginError{
+    color: red;
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    text-align: center;
+    display: none;
+    padding-top: 20px;
+    
+}
+
+#matriculaError{
+    color: red;
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    text-align: center;
+    display: none;
+    padding-top: 20px;
+    padding-left: 20px;
+    
+}
+
+#criarConta{
+    color: white;
+    border-color: white;
+    background-color: #22c2e6;
+    padding: 20px;
+    border-radius: 20px;
+    text-align: center;
+}
+#criarConta:hover{
+    background-color: white;
+    color: #22c2e6;
+}
+
+.containerConta{
+    padding-top: 20px;
+}
